@@ -1,0 +1,9 @@
+[submodule "android-shm"]
+	path = android-shm
+	url = https://github.com/PavelAtr/android-shm.git
+[submodule "opensles-alsa"]
+	path = opensles-alsa
+	url = https://github.com/PavelAtr/opensles-alsa.git
+[submodule "jack1"]
+	path = jack1
+	url = https://github.com/PavelAtr/jack1.git
