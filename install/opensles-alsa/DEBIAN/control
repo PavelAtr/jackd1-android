@@ -1,0 +1,9 @@
+Package: opensles-alsa
+Maintainer: Pavel V Samsonov <pvsamsonov76@gmail.com>
+Architecture: arm64
+Depends:
+Version: 1-android7
+Section: sound
+Priority: optional
+Description: Alsa OpenSELS plugin uses fifo
+

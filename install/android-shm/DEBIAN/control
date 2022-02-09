@@ -1,0 +1,14 @@
+Package: android-shm
+Maintainer: Pavel V Samsonov <pvsamsonov76@gmail.com>
+Architecture: arm64
+Depends:
+Version: 0.9-1
+Section: system
+Priority: optional
+Description: Posix SHM emulation for a process group on Android.
+ Posix SHM emulation for a process group on Android using /dev/ashmem.
+ The idea is to launch programs using the shm-launch command,
+ which opens many empty named file descriptors in /dev/ashmem.
+ Childs inherit these file descriptors and manipulate them through the
+ library libandroid-shm, which provides emulation of the shm_open(),
+ shm_unlink() functions.
